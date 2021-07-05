@@ -1,0 +1,67 @@
+<HTML>
+	<HEAD>
+		<meta charset="UTF-7" />
+		<TITLE> FORMULARIOS NO HTML </TITLE>
+	</HEAD>
+
+	<BODY BGCOLOR="WHITE" TEX="BLACK">
+		
+		<FORM>
+			
+			<TABLE BORDER="1">
+			<TR>
+				<TD>NOME: </TD>
+				<TD><INPUT TYPE="text" NAME="nome"><TD>
+			</TR>
+			<TR>
+				<TD>SEXO:</TD>
+				<TD><INPUT TYPE="radio" NAME="sexo" VALUE="M" CHECKED> Masculino<BR>
+					<INPUT TYPE="radio" NAME="sexo" VALUE="F"> Feminino<BR>
+					<INPUT TYPE="radio" NAME="sexo" VALUE="O"> Outro<BR>
+				</TD>			
+			</TR>
+			<TR>
+				<TD>NASCIMENTO: </TD>
+		 			<TD><INPUT TYPE="date" NAME="nascimento" MIN="2000-08-31"></TD>
+			</TR>
+			<TR>
+				<TD>ESTADO:</TD>
+				<TD><SELECT NAME="UF">
+					<OPTION VALUE="PR">Paraná</OPTION>
+					<OPTION VALUE="SC">Santa Catarina</OPTION>
+					<OPTION VALUE="RS">Rio Grande do Sul</OPTION>
+				</SELECT>
+				</TD>
+			</TR>
+			<TR>			
+				
+				<TD>DIVERSÃO:</TD>
+				<TD><INPUT TYPE="checkbox" NAME="cinema" VALUE="C"> Cinema
+				<INPUT TYPE="checkbox" NAME="futebol" VALUE="F"> Futebol
+				<INPUT TYPE="checkbox" NAME="voleibol" VALUE="V"> Voleibol
+				</TD>
+			</TR>
+			<TR>
+				<TD>E-MAIL:<TD>
+				<TD><INPUT TYPE"email" name="email" autocomplete="off">
+			</TR>
+			<TR>
+
+				<TD>SENHA:</TD>
+				<TD><INPUT TYPE="password" VALUE="Senha"></TD>
+			</TR>
+			</TABLE>
+			<INPUT TYPE="submit" VALUE="Salvar">
+			<INPUT TYPE="RESET" VALUE="Limpar">		
+
+		
+		</FORM>
+
+
+	</BODY>
+
+
+
+
+
+</HTML>
